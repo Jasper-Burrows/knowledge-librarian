@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Knowledge Librarian">
+  <rect width="64" height="64" rx="16" fill="#c9fa62"/>
+  <path d="M20 17v30M27 15v32M34 18v29M41 16l4 30" fill="none" stroke="#123f34" stroke-width="4" stroke-linecap="round"/>
+</svg>
