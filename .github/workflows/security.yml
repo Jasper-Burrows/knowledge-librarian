@@ -40,7 +40,7 @@ jobs:
           version: "0.12.1"
       - run: uv export --frozen --all-extras --no-hashes --no-emit-project --output-file /tmp/knowledge-librarian-audit.txt
       - run: uvx pip-audit --requirement /tmp/knowledge-librarian-audit.txt
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: "24"
       - run: npm --prefix frontend audit --audit-level=high
