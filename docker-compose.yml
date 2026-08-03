@@ -1,0 +1,23 @@
+services:
+  librarian:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      LIBRARIAN_MODE: offline
+      LIBRARIAN_DATABASE_PATH: /app/data/librarian.db
+      LIBRARIAN_ALLOWED_ORIGINS: http://127.0.0.1:8000
+    volumes:
+      - librarian-data:/app/data
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,noexec,nosuid
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+volumes:
+  librarian-data:
+
