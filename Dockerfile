@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.7
-FROM node:24.17.0-alpine AS web
+FROM node:26.5.1-alpine AS web
 WORKDIR /build/frontend
 COPY frontend/package.json frontend/package-lock.json ./
 RUN npm ci
