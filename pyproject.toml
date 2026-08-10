@@ -9,13 +9,13 @@ dependencies = [
   "aiosqlite>=0.22.1,<0.23",
   "fastapi>=0.141.1,<0.142",
   "httpx>=0.28,<0.29",
-  "openai>=2.52,<3",
+  "openai>=2.53.0,<3",
   "pydantic>=2.13.4,<3",
   "pydantic-settings>=2.14.2,<3",
-  "pymupdf>=1.28,<2",
+  "pymupdf>=1.28.2,<2",
   "python-multipart>=0.0.32,<0.1",
   "structlog>=26.1,<27",
-  "typer>=0.27,<0.28",
+  "typer>=0.27.1,<0.28",
   "uvicorn[standard]>=0.52.1,<0.53",
 ]
 
