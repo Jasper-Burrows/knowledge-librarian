@@ -11,11 +11,11 @@ dependencies = [
   "httpx>=0.28,<0.29",
   "openai>=2.52,<3",
   "pydantic>=2.13.4,<3",
-  "pydantic-settings>=2.14.2,<3",
-  "pymupdf>=1.28,<2",
+  "pydantic-settings>=2.15.0,<3",
+  "pymupdf>=1.28.2,<2",
   "python-multipart>=0.0.32,<0.1",
   "structlog>=26.1,<27",
-  "typer>=0.27,<0.28",
+  "typer>=0.27.1,<0.28",
   "uvicorn[standard]>=0.52.1,<0.53",
 ]
 
@@ -28,7 +28,7 @@ dev = [
   "pytest-asyncio>=1.4,<2",
   "pytest-cov>=7.1,<8",
   "respx>=0.23.1,<0.24",
-  "ruff>=0.16.1,<0.17",
+  "ruff>=0.16.3,<0.17",
 ]
 
 [project.scripts]
