@@ -6,7 +6,7 @@ RUN npm ci
 COPY frontend/ ./
 RUN npm run build
 
-FROM ghcr.io/astral-sh/uv:0.12.1 AS uv
+FROM ghcr.io/astral-sh/uv:0.12.10 AS uv
 
 FROM python:3.13.14-slim AS runtime
 ENV PYTHONDONTWRITEBYTECODE=1 \
